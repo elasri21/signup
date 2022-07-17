@@ -50,6 +50,11 @@ p.greeting {
   color: #f00;
   font-size: 22px;
   font-family: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 body {
